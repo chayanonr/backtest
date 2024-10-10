@@ -5,9 +5,9 @@ import pandas as pd
 from datetime import datetime
 from binance.client import Client
 
-# Binance API keys
-API_KEY = 'FXZKzsZdwMSr2o1AauM2ZL3cgaCaYSnox9hwGqPmQsxKR79a3KLu8bWUBZSLYCqQ'
-API_SECRET = '8roeYePfgrVdo9z2Jact8TNtfHHeC9o3gzP3yPIEBugxiTON24dAvIPjt4J1Wu7F'
+# Your Binance API keys
+API_KEY = ''
+API_SECRET = ''
 
 client = Client(api_key=API_KEY, api_secret=API_SECRET)
 
